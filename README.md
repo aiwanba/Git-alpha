@@ -1,5 +1,6 @@
 
 # WordPress博客程序：Git-alpha 开源主题
+<img width="1280" height="448" alt="image" src="https://github.com/user-attachments/assets/17da367b-09f9-4d2c-9907-36cca1f683ba" />
 
 一、介绍：
 这款主题是云落一直在使用的主题，是对欲思主题的二次修改版本，起名为 Git，是因为是使用 Git 来托管代码的，写得最多的就是 Git 了，所以就这么定名了。这款主题是我正式建站使用的主题，这款主题的发展一定程度上见证了云落从一个 WordPress 小白到如今的成长历史，所以将这款主题免费分享出来，希望朋友们能喜欢。
