@@ -1,6 +1,7 @@
 # Git-alpha
 WordPress博客程序：Git-alpha 开源主题
 
+本次所有修改均是为了兼容 PHP 8.0+：未初始化的变量、不存在的数组键、对 null 读属性、向类型严格函数传 null、可选参数在必选参数前——这些在旧版 PHP 中不报错，PHP 8+ 通通抛出 Warning/Deprecated 甚至 Fatal error。
 1. admin/theme-options.php — 3 处修改
 git_update_options(): 遍历选项时加 isset() 检查，跳过 type=title 的无键条目
 $_GET 参数访问: $_GET['update']、$_GET['reset']、$_GET['test'] 加 isset() 保护
@@ -27,3 +28,4 @@ deel_description(): 将 $post->post_excerpt 移到 is_singular() 块内，并加
 循环前加 $comment_i = 0; 初始化
 9. pages/sitemap.php — 1 处修改
 移除 wp_page_menu($args) 中未定义的 $args 参数
+
